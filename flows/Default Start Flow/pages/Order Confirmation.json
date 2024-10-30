@@ -7,7 +7,7 @@
   "entryFulfillment": {
     "messages": [ {
       "text": {
-        "text": [ "You can pick up your order for a $session.params.size $session.params.color shirt in 7 to 10 business days. Goodbye." ]
+        "text": [ "You can pick up your order for a $session.params.size $session.params.color shirt in 7 to 10 business days. Goodbye.." ]
       },
       "languageCode": "vi"
     } ],
