@@ -1,0 +1,56 @@
+{
+  "name": "4196c121-368c-4299-bb5a-eeda40928bdf",
+  "displayName": "New Order",
+  "form": {
+    "parameters": [ {
+      "displayName": "color",
+      "required": true,
+      "entityType": "@sys.color",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "nextActionOverride": {
+          
+          }
+        }
+      }
+    }, {
+      "displayName": "size",
+      "required": true,
+      "entityType": "@size",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "nextActionOverride": {
+          
+          }
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Ok, let's start a new order." ]
+      },
+      "languageCode": "vi"
+    } ],
+    "nextActionOverride": {
+    
+    }
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = FINAL",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "You have selected a $session.params.size, $session.params.color shirt." ]
+        },
+        "languageCode": "vi"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "Order Confirmation",
+    "name": "f743cd2e-b70d-46cd-8081-176457940076"
+  } ]
+}

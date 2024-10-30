@@ -1,0 +1,15 @@
+{
+  "entities": [ {
+    "value": "small",
+    "synonyms": [ "little", "small", "tiny" ],
+    "languageCode": "vi"
+  }, {
+    "value": "medium",
+    "synonyms": [ "average", "medium", "regular" ],
+    "languageCode": "vi"
+  }, {
+    "value": "large",
+    "synonyms": [ "big", "giant", "large" ],
+    "languageCode": "vi"
+  } ]
+}

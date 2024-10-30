@@ -1,0 +1,73 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Where are you located?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "vi"
+  }, {
+    "parts": [ {
+      "text": "How do I get to your store?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "vi"
+  }, {
+    "parts": [ {
+      "text": "What is your address?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "vi"
+  }, {
+    "parts": [ {
+      "text": "What street are you on?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "vi"
+  }, {
+    "parts": [ {
+      "text": "Where is the store located?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "vi"
+  }, {
+    "parts": [ {
+      "text": "How do I get there?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "vi"
+  }, {
+    "parts": [ {
+      "text": "Where do I pick up my order?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "vi"
+  }, {
+    "parts": [ {
+      "text": "Tell me the address",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "vi"
+  }, {
+    "parts": [ {
+      "text": "Directions",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "vi"
+  }, {
+    "parts": [ {
+      "text": "Where is the store?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "vi"
+  } ]
+}

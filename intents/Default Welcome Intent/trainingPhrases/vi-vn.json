@@ -1,0 +1,91 @@
+{
+  "trainingPhrases": [ {
+    "id": "6fe88218-7ca5-4d12-b5d4-3bc68e9b0c59",
+    "parts": [ {
+      "text": "xin chào",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "vi-vn"
+  }, {
+    "id": "93d9ea01-f847-4d15-b00e-0c7c1ec6b9a6",
+    "parts": [ {
+      "text": "chào bạn",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "vi-vn"
+  }, {
+    "id": "02ebb3f7-4190-4346-bc2e-023c920757e7",
+    "parts": [ {
+      "text": "chào cậu",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "vi-vn"
+  }, {
+    "id": "8d1af87d-e4f1-4c33-8267-bb3b6797a17a",
+    "parts": [ {
+      "text": "chào đằng ấy",
+      "auto": true
+    } ],
+    "repeatCount": 2,
+    "languageCode": "vi-vn"
+  }, {
+    "id": "b9b3d2ef-2faf-4338-b9b7-b83677135dbf",
+    "parts": [ {
+      "text": "xin chào, lại là tôi đây",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "vi-vn"
+  }, {
+    "id": "43b309c5-2490-426a-919e-355e2a9644c0",
+    "parts": [ {
+      "text": "lâu lắm không gặp",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "vi-vn"
+  }, {
+    "id": "847e512d-be81-4a27-a559-f7dfa3c8d6e6",
+    "parts": [ {
+      "text": "chào nhé",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "vi-vn"
+  }, {
+    "id": "b07cae4f-f3f7-4262-8237-dbb94957b913",
+    "parts": [ {
+      "text": "chào mừng bạn",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "vi-vn"
+  }, {
+    "id": "e99a7524-e4e5-423f-b1f3-b9aca714eb0d",
+    "parts": [ {
+      "text": "chào",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "vi-vn"
+  }, {
+    "id": "81e01225-0fa7-48bf-a16a-f65f595e00ea",
+    "parts": [ {
+      "text": "xin chào đằng ấy",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "vi-vn"
+  }, {
+    "id": "4e5a6a99-6f5d-46cc-8cd5-7db5e8982fe5",
+    "parts": [ {
+      "text": "xin chào nhé",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "vi-vn"
+  } ]
+}

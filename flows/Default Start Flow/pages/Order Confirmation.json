@@ -1,0 +1,18 @@
+{
+  "name": "3e889c67-2c15-456c-b82a-20c979fc43a8",
+  "displayName": "Order Confirmation",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "You can pick up your order for a $session.params.size $session.params.color shirt in 7 to 10 business days. Goodbye." ]
+      },
+      "languageCode": "vi"
+    } ],
+    "nextActionOverride": {
+    
+    }
+  }
+}

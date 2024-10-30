@@ -1,0 +1,88 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Buy your "
+    }, {
+      "text": "pink",
+      "parameterId": "color"
+    }, {
+      "text": " shirt"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "vi"
+  }, {
+    "parts": [ {
+      "text": "I want a ",
+      "auto": true
+    }, {
+      "text": "little",
+      "parameterId": "size",
+      "auto": true
+    }, {
+      "text": " shirt",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "vi"
+  }, {
+    "parts": [ {
+      "text": "I want a ",
+      "auto": true
+    }, {
+      "text": "small",
+      "parameterId": "size",
+      "auto": true
+    }, {
+      "text": " shirt",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "vi"
+  }, {
+    "parts": [ {
+      "text": "I want a "
+    }, {
+      "text": "large",
+      "parameterId": "size",
+      "auto": true
+    }, {
+      "text": ", "
+    }, {
+      "text": "red",
+      "parameterId": "color"
+    }, {
+      "text": " shirt"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "vi"
+  }, {
+    "parts": [ {
+      "text": "I want a "
+    }, {
+      "text": "blue",
+      "parameterId": "color"
+    }, {
+      "text": " shirt"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "vi"
+  }, {
+    "parts": [ {
+      "text": "I need a shirt",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "vi"
+  }, {
+    "parts": [ {
+      "text": "I need a new "
+    }, {
+      "text": "yellow",
+      "parameterId": "color"
+    }, {
+      "text": " shirt"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "vi"
+  } ]
+}

@@ -1,0 +1,53 @@
+{
+  "fallbackSettings": {
+    "selectedPrompt": "Example_1",
+    "promptTemplates": [ {
+      "displayName": "Example_1",
+      "promptText": "Bạn là một trợ lý AI thân thiện giúp con người với $flow-description.\n\nCụ thể, bạn có thể $route-descriptions.\n\nCuộc trò chuyện giữa con người và bạn cho đến nay là:\n${conversation USER:\"Human:\" AGENT:\"AI\"}\n\nSau đó, con người hỏi:\n$last-user-utterance\n\nBạn có thể trả lời tiếng Việt hoặc tiếng Nhật, tùy theo câu hỏi của người hỏi\nBạn nói:\n\n"
+    } ]
+  },
+  "generativeSafetySettings": {
+    "raiSettings": {
+      "categoryFilters": [ {
+        "category": "DANGEROUS_CONTENT",
+        "filterLevel": "BLOCK_FEW"
+      }, {
+        "category": "SEXUALLY_EXPLICIT_CONTENT",
+        "filterLevel": "BLOCK_SOME"
+      }, {
+        "category": "HARASSMENT",
+        "filterLevel": "BLOCK_SOME"
+      }, {
+        "category": "HATE_SPEECH",
+        "filterLevel": "BLOCK_SOME"
+      } ]
+    },
+    "defaultRaiSettings": {
+      "categoryFilters": [ {
+        "category": "DANGEROUS_CONTENT",
+        "filterLevel": "BLOCK_FEW"
+      }, {
+        "category": "SEXUALLY_EXPLICIT_CONTENT",
+        "filterLevel": "BLOCK_SOME"
+      }, {
+        "category": "HARASSMENT",
+        "filterLevel": "BLOCK_SOME"
+      }, {
+        "category": "HATE_SPEECH",
+        "filterLevel": "BLOCK_SOME"
+      } ]
+    }
+  },
+  "languageCode": "vi",
+  "knowledgeConnectorSettings": {
+    "groundingSettings": {
+      "groundingConfidence": "LOW"
+    },
+    "mainLlmConfig": {
+      "configSet": "gemini_15_flash_001"
+    }
+  },
+  "llmModelSettings": {
+    "model": "gemini-pro"
+  }
+}

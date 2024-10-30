@@ -1,0 +1,105 @@
+{
+  "name": "00000000-0000-0000-0000-000000000000",
+  "displayName": "Default Start Flow",
+  "description": "A start flow created along with the agent",
+  "transitionRoutes": [ {
+    "intent": "Default Welcome Intent",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Hello, this is a shirt ordering virtual agent. How can I help you?" ]
+        },
+        "languageCode": "vi"
+      }, {
+        "text": {
+          "text": [ "こんにちは！" ]
+        },
+        "languageCode": "ja"
+      }, {
+        "text": {
+          "text": [ "Xin chào!", "Chào bạn!", "Chúc bạn ngày mới tốt lành!", "Chào mừng bạn!" ]
+        },
+        "languageCode": "vi-vn"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "name": "7f7d6fcc-9dc3-4801-82cc-4478e12244d4"
+  }, {
+    "intent": "store.location",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Store Location",
+    "name": "fef46968-f7c4-4ef7-8e38-6780e477e823"
+  }, {
+    "intent": "store.hours",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Store Hours",
+    "name": "2196fe1f-2cd5-463a-97e0-0a437b561d2d"
+  }, {
+    "intent": "order.new",
+    "triggerFulfillment": {
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "New Order",
+    "name": "e82ca244-e547-4498-a91c-34d7248b2b85"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "すみません。よく分かりませんでした。", "今のは少しわかりにくかったです。", "少し言い換えていただけませんか。", "失礼ですが、もう一度おねがいします。", "ちょっと分かりませんでした。", "今、なんておっしゃいましたか？" ]
+        },
+        "languageCode": "ja"
+      }, {
+        "text": {
+          "text": [ "Tôi chưa hiểu. Bạn có thể nói lại không?", "Tôi chưa nghe rõ những gì bạn nói. Bạn có thể nhắc lại không?", "Xin lỗi, bạn có thể nói lại không?", "Xin lỗi, bạn có thể nhắc lại được không?", "Bạn có thể nói lại thông tin đó không?", "Xin lỗi, tôi vẫn chưa hiểu.", "Xin lỗi, bạn nói gì cơ?", "Vui lòng nhắc lại.", "Bạn nói gì cơ?", "Bạn có thể nhắc lại không?", "Tôi chưa hiểu.", "Tôi chưa nghe rõ." ]
+        },
+        "languageCode": "vi-vn"
+      } ],
+      "enableGenerativeFallback": true,
+      "nextActionOverride": {
+      
+      }
+    },
+    "name": "e05603ff-bd63-4e54-ad1b-2ea04e8730be"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Tôi chưa hiểu. Bạn có thể nói lại không?", "Tôi chưa nghe rõ những gì bạn nói. Bạn có thể nhắc lại không?", "Xin lỗi, bạn có thể nói lại không?", "Xin lỗi, bạn có thể nhắc lại được không?", "Bạn có thể nói lại thông tin đó không?", "Xin lỗi, tôi vẫn chưa hiểu.", "Xin lỗi, bạn nói gì cơ?", "Vui lòng nhắc lại.", "Bạn nói gì cơ?", "Bạn có thể nhắc lại không?", "Tôi chưa hiểu.", "Tôi chưa nghe rõ." ]
+        },
+        "languageCode": "vi"
+      }, {
+        "text": {
+          "text": [ "すみません。よく分かりませんでした。", "今のは少しわかりにくかったです。", "少し言い換えていただけませんか。", "失礼ですが、もう一度おねがいします。", "ちょっと分かりませんでした。", "今、なんておっしゃいましたか？" ]
+        },
+        "languageCode": "ja"
+      }, {
+        "text": {
+          "text": [ "Tôi chưa hiểu. Bạn có thể nói lại không?", "Tôi chưa nghe rõ những gì bạn nói. Bạn có thể nhắc lại không?", "Xin lỗi, bạn có thể nói lại không?", "Xin lỗi, bạn có thể nhắc lại được không?", "Bạn có thể nói lại thông tin đó không?", "Xin lỗi, tôi vẫn chưa hiểu.", "Xin lỗi, bạn nói gì cơ?", "Vui lòng nhắc lại.", "Bạn nói gì cơ?", "Bạn có thể nhắc lại không?", "Tôi chưa hiểu.", "Tôi chưa nghe rõ." ]
+        },
+        "languageCode": "vi-vn"
+      } ]
+    },
+    "name": "1547212c-8c12-4af3-b28a-52367b6e218c"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001
+  },
+  "nluSettingsList": [ {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001,
+    "customConfigKey": "859b1ef1-c448-4761-9e30-733dc8379bcc",
+    "languageCode": "vi"
+  } ]
+}

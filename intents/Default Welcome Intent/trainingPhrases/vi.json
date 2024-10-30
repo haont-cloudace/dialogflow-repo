@@ -1,0 +1,91 @@
+{
+  "trainingPhrases": [ {
+    "id": "179cbf00-7ce3-4eb7-acdf-83749bec2a1d",
+    "parts": [ {
+      "text": "xin chào",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "vi"
+  }, {
+    "id": "9a57af41-e808-4d3d-8115-721453aaf80d",
+    "parts": [ {
+      "text": "chào bạn",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "vi"
+  }, {
+    "id": "56d61293-c3a6-4c3d-a9f3-6cf3fc18ad28",
+    "parts": [ {
+      "text": "chào cậu",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "vi"
+  }, {
+    "id": "a91249f3-2762-4676-9bfe-e9eaac873f0b",
+    "parts": [ {
+      "text": "chào đằng ấy",
+      "auto": true
+    } ],
+    "repeatCount": 2,
+    "languageCode": "vi"
+  }, {
+    "id": "3aa867cf-dc3b-4360-adca-7e54a12602b5",
+    "parts": [ {
+      "text": "xin chào, lại là tôi đây",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "vi"
+  }, {
+    "id": "4a0892b7-5e3c-4d3c-8d56-8f3dcf0c2ce1",
+    "parts": [ {
+      "text": "lâu lắm không gặp",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "vi"
+  }, {
+    "id": "ba7ecffa-b9d9-4e40-9246-c4b5c06f806a",
+    "parts": [ {
+      "text": "chào nhé",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "vi"
+  }, {
+    "id": "53ddb115-d028-40cd-ac63-ae8f0b38973e",
+    "parts": [ {
+      "text": "chào mừng bạn",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "vi"
+  }, {
+    "id": "eabb08f9-426b-4ce1-9ccc-e39a22375264",
+    "parts": [ {
+      "text": "chào",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "vi"
+  }, {
+    "id": "cc76ad6c-5a49-4327-a6a1-eaddd2624f54",
+    "parts": [ {
+      "text": "xin chào đằng ấy",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "vi"
+  }, {
+    "id": "5bff1718-842c-4cdb-9ff1-706a2f131e86",
+    "parts": [ {
+      "text": "xin chào nhé",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "vi"
+  } ]
+}
